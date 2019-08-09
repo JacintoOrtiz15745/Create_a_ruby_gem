@@ -12,17 +12,28 @@
 # Archivo primera_gema/ejemplo.gemspec
 
 Gem::Specification.new do |s|
+
   s.name = "ejemplo"
+  
   s.version = '0.0.1'
+  
   s.date = '2019-08-09'
+  
   s.authors = ["Jacinto Ortiz"]
+  
   s.email = ["andresjacinto_araujo@ucol.com"]
+  
   s.summary = "My very first"
+  
   s.description = "Simple Hello World"
+  
   s.homepage = "https://github.com/dbarrientos/gemadesafio"
+  
   #s.files = ["lib/mygem3.rb"]
-  # or
+  
+  
   s.files = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
+  
 end
 
 
