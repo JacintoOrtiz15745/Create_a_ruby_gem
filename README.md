@@ -1,4 +1,4 @@
-# Create_a_ruby_gem
+# Crear una gema en ruby
 
 1.-Crearemos primero una carpeta que contendra nuestros archivos 
 
