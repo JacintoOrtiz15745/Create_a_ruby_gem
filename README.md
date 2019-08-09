@@ -7,9 +7,8 @@
 2.-Dentro de nuestra carpeta *primera_gema* crearemos un archivo *.gemspec*
 + El nombre de nuestra gema(archivo .gemspec) que usaremos como ejemplo será el siguiente: __ejemplo.gemspec__.
 
-3.-Rellenaremos nuestro documento __ejemplo.gemspec__ de la siguiente manera:
+3.-Rellenaremos nuestro archivo __ejemplo.gemspec__ de la siguiente manera:
 
-Archivo primera_gema/ejemplo.gemspec
 
 Gem::Specification.new do |s|
 
@@ -27,7 +26,7 @@ Gem::Specification.new do |s|
   
   s.description = "Simple Hello World"
   
-  s.homepage = "https://github.com/dbarrientos/gemadesafio"
+  s.homepage = "https://github.com/JacintoOrtiz15745/ejemplo_gema"
   
   #s.files = ["lib/mygem3.rb"]
   
@@ -42,8 +41,20 @@ end
 
 4.-Dentro de nuestra carpeta crearemos otra carpeta que se llamará: __lib__.
 
-5.-Dentro de nuestro archivo __ejemplo.gemspec__ ingresaremos nuestro código, en este caso el código utilizado será el siguiente:
+5.-Dentro de nuestra carpeta __lib__ crearemos un archivo(archivo ruby ".rb") en este caso se llamará __ejemplo.gemspec
 
+6.-Dentro de nuestro archivo __ejemplo.gemspec__ ingresaremos nuestro código, en este caso el código utilizado será simple, pero solo es por fines demostrativos.
+
+
+class Gemadesafio
+
+    def self.hola
+    
+        return "Hola mundo!!!"
+        
+    end
+    
+end 
 
 
   
