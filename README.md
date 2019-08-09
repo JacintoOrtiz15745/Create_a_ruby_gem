@@ -4,12 +4,12 @@
 
 + __NOTA:__ El nombre de la carpeta puede ser el que sea, en este caso le asignaremos el nombre de *primera_gema*
 
-2.-Dentro de nuestra carpeta crearemos un archivo *.gemspec*
+2.-Dentro de nuestra carpeta *primera_gema* crearemos un archivo *.gemspec*
 + El nombre de nuestra gema(archivo .gemspec) que usaremos como ejemplo será el siguiente: __ejemplo.gemspec__.
 
 3.-Rellenaremos nuestro documento __ejemplo.gemspec__ de la siguiente manera:
 
-//Archivo primera_gema/ejemplo.gemspec
+Archivo primera_gema/ejemplo.gemspec
 
 Gem::Specification.new do |s|
 
@@ -37,7 +37,13 @@ Gem::Specification.new do |s|
 end
 
 
-+ Puedes encontrar en el siguiente link la manera de rellenar la información para nuestra gema http://guides.rubygems.org/specification-reference.
++ Puedes encontrar en el siguiente link la manera correcta de rellenar la información que se muestra arriba para nuestra gema http://guides.rubygems.org/specification-reference.
+
+
+4.-Dentro de nuestra carpeta crearemos otra carpeta que se llamará: __lib__.
+
+5.-Dentro de nuestro archivo __ejemplo.gemspec__ ingresaremos nuestro código, en este caso el código utilizado será el siguiente:
+
 
 
   
