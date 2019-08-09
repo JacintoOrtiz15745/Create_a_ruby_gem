@@ -29,7 +29,7 @@
 
 4.-Dentro de nuestra carpeta crearemos otra carpeta que se llamará: __lib__.
 
-5.-Dentro de nuestra carpeta __lib__ crearemos un archivo(archivo ruby ".rb") en este caso se llamará __ejemplo.gemspec
+5.-Dentro de nuestra carpeta __lib__ crearemos un archivo(archivo ruby ".rb") en este caso se llamará __ejemplo.gemspec__
 
 6.-Dentro de nuestro archivo __ejemplo.gemspec__ ingresaremos nuestro código, en este caso el código utilizado será simple, pero solo es por fines demostrativos.
 
