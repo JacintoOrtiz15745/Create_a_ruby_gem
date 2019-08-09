@@ -5,7 +5,7 @@
 + __NOTA:__ El nombre de la carpeta puede ser el que sea, en este caso le asignaremos el nombre de *primera_gema*
 
 2.-Dentro de nuestra carpeta *primera_gema* crearemos un archivo *.gemspec*
-+ El nombre de nuestra gemam (archivo .gemspec) que usaremos como ejemplo será el siguiente: __ejemplo.gemspec__.
++ El nombre de nuestra gema (archivo .gemspec) que usaremos como ejemplo será el siguiente: __ejemplo.gemspec__.
 
 3.-Rellenaremos nuestro archivo __ejemplo.gemspec__ de la siguiente manera:
    
@@ -41,7 +41,7 @@
       end
     end
     
-+  En la siguiente linea (del archivo __ejemplo.gemspec__) se incluiran todos los archivos que tengamos dentro de la carpeta __lib__ (en este caso sería __ejemplo.rb__)
++ __NOTA:__ La siguiente linea (del archivo __ejemplo.gemspec__) se incluiran todos los archivos que tengamos dentro de la carpeta __lib__ (en este caso se incluiría el archivo __ejemplo.rb__)
    
          s.files = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
          
@@ -49,4 +49,4 @@
      
       gem build ejemplo.gemspec
       
-Este comando de creará un archivo dentro de nuestra carpeta llamado __ejemplo-0.0.1.gem__ y listo, ya tendrás creada tu primer gema y podrás compartirla con la comunidad.
+Este comando te creará un archivo dentro de nuestra carpeta llamado __ejemplo-0.0.1.gem__ y listo, ya tendrás creada tu primer gema y podrás compartirla con la comunidad.
