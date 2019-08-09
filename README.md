@@ -25,13 +25,16 @@
 
 
 + Puedes encontrar en el siguiente link la manera correcta de rellenar la información que se muestra arriba para nuestra gema http://guides.rubygems.org/specification-reference.
-
-
+  
++  En la siguiente linea se incluiran todos los archivos que tengamos dentro de la carpeta __lib__ (en este caso sería __ejemplo_gemspec__)
+   
+         s.files = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
+      
 4.-Dentro de nuestra carpeta crearemos otra carpeta que se llamará: __lib__.
 
 5.-Dentro de nuestra carpeta __lib__ crearemos un archivo(archivo ruby ".rb") en este caso se llamará __ejemplo.gemspec__
 
-6.-Dentro de nuestro archivo __ejemplo.gemspec__ ingresaremos nuestro código, en este caso el código utilizado será simple, pero solo es por fines demostrativos.
+6.-A continuación crearemos el código para nuestra librería; dentro de nuestro archivo __ejemplo.gemspec__ ingresaremos nuestro código, en este caso el código utilizado será simple, pero solo es por fines demostrativos.
 
     class Gemadesafio
        
@@ -42,7 +45,7 @@
       end
     end
    
-
-
-
+7.-Ahora el siguiente paso es construir nuestra gema. Para esto abriremos nuestra terminal y nos situaremos en la carpeta que anteriormente habiamos creado (__primera_gema__). Una vez hecho esto escribiremos en nuestra terminal el siguiente comando 
+     
+      gem build 
   
