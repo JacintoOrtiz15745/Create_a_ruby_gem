@@ -9,7 +9,7 @@
 
 3.-Rellenaremos nuestro documento __ejemplo.gemspec__ de la siguiente manera:
 
-# Archivo primera_gema/ejemplo.gemspec
+//Archivo primera_gema/ejemplo.gemspec
 
 Gem::Specification.new do |s|
 
