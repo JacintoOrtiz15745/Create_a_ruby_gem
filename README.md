@@ -41,7 +41,7 @@
       end
     end
     
-+ __NOTA:__ La siguiente linea (del archivo __ejemplo.gemspec__) se incluiran todos los archivos que tengamos dentro de la carpeta __lib__ (en este caso se incluiría el archivo __ejemplo.rb__)
++ __NOTA:__ La siguiente linea (del archivo __ejemplo.gemspec__) incluirá todos los archivos que tengamos dentro de la carpeta __lib__ (en este caso se incluiría el archivo __ejemplo.rb__)
    
          s.files = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
          
