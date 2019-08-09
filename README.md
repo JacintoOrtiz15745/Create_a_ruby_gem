@@ -45,16 +45,16 @@ end
 
 6.-Dentro de nuestro archivo __ejemplo.gemspec__ ingresaremos nuestro código, en este caso el código utilizado será simple, pero solo es por fines demostrativos.
 
-
-class Gemadesafio
-
-    def self.hola
-    
+    class Gemadesafio
+       
+      def self.hola
+        
         return "Hola mundo!!!"
         
+      end
     end
-    
-end 
+   
+
 
 
   
